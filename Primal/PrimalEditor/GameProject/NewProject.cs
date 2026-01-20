@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Diagnostics;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Runtime.Serialization;
 using System.Threading.Tasks;
 using PrimalEditor.Utilities;
 using System.Collections.ObjectModel;
+using System.IO;
 
 namespace PrimalEditor.GameProject
 {
@@ -42,7 +42,7 @@ namespace PrimalEditor.GameProject
         //TODO: Get the files from the installation location
         private readonly string _templatePath = @"..\..\PrimalEditor\ProjectTemplates";
 
-        private string _projectName = "NewProject";
+        private string _projectName = "NewProject%";
 
         public string ProjectName
         {
@@ -53,7 +53,9 @@ namespace PrimalEditor.GameProject
                 if(_projectName != value)
                 {
                     _projectName = value;
+                    ValidateProjectPath();
                     OnPropertyChanged(nameof(ProjectName));
+
                 }
             }
         }
@@ -70,7 +72,38 @@ namespace PrimalEditor.GameProject
                 if (_projectPath != value)
                 {
                     _projectPath = value;
+                    ValidateProjectPath();
                     OnPropertyChanged(nameof(ProjectPath));
+                }
+            }
+        }
+
+        private bool _isValid = false;
+        public bool IsValid
+        {
+            get => _isValid;
+
+            set
+            {
+                if (_isValid != value)
+                {
+                    _isValid = value;
+                    OnPropertyChanged(nameof(IsValid));
+                }
+            }
+        }
+
+        private string _errorMessage;
+        public string ErrorMessage
+        {
+            get => _errorMessage;
+
+            set
+            {
+                if (_errorMessage != value)
+                {
+                    _errorMessage = value;
+                    OnPropertyChanged(nameof(ErrorMessage));
                 }
             }
         }
@@ -80,6 +113,53 @@ namespace PrimalEditor.GameProject
         public ReadOnlyObservableCollection<ProjectTemplate> ProjectTemplates
         {
             get;
+        }
+
+        private bool ValidateProjectPath()
+        {
+            string path = ProjectPath;
+
+            /*if (!path.EndsWith(@"\"))
+            {
+                path += @"\";
+            }*/
+
+            path += $@"{ProjectName}\";
+
+            IsValid = false;
+
+            if (string.IsNullOrWhiteSpace(ProjectName))
+            {
+                ErrorMessage = "Please type in a project name";
+            }
+
+            //If it does find any of these invalid characters it will return a value other then -1 making this statement true
+            else if (ProjectName.IndexOfAny(Path.GetInvalidFileNameChars()) != -1)
+            {
+                ErrorMessage = "Invalid character(s) used in the project name";
+            }
+
+            else if (string.IsNullOrWhiteSpace(ProjectPath))
+            {
+                ErrorMessage = "Please select a valid project folder";
+            }
+
+            else if (ProjectPath.IndexOfAny(Path.GetInvalidPathChars()) != -1)
+            {
+                ErrorMessage = "Invalid character(s) used in the project path";
+            }
+
+            else if (Directory.Exists(ProjectPath) && Directory.EnumerateFileSystemEntries(path).Any())
+            {
+                ErrorMessage = "Selected folder already exists";
+            }
+            else
+            {
+                ErrorMessage = string.Empty;
+                IsValid = true;
+            }
+
+            return IsValid;
         }
 
         public NewProject()
@@ -105,6 +185,8 @@ namespace PrimalEditor.GameProject
 
                     _projectTemplates.Add(template);
                 }
+                //Just to be sure
+                ValidateProjectPath();
             }
             catch (Exception ex)
             {
