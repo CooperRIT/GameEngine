@@ -24,5 +24,29 @@ namespace PrimalEditor.GameProject
         {
             InitializeComponent();
         }
+
+        /// <summary>
+        /// Gets the data that we made from the data context and uses that to call the Create Project Method with the selcted template
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void OnCreateButtonClick(object sender, RoutedEventArgs e)
+        {
+            NewProject vm = DataContext as NewProject;
+
+            string projectPath = vm.CreateProject(templateListBox.SelectedItem as ProjectTemplate);
+
+            bool dialogResult = false;
+
+            Window win = Window.GetWindow(this);
+
+            if(!string.IsNullOrEmpty(projectPath))
+            {
+                dialogResult = true;
+                
+            }
+            win.DialogResult = dialogResult;
+            win.Close();
+        }
     }
 }

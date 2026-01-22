@@ -42,7 +42,7 @@ namespace PrimalEditor.GameProject
         //TODO: Get the files from the installation location
         private readonly string _templatePath = @"..\..\PrimalEditor\ProjectTemplates";
 
-        private string _projectName = "NewProject%";
+        private string _projectName = "NewProject";
 
         public string ProjectName
         {
@@ -119,10 +119,10 @@ namespace PrimalEditor.GameProject
         {
             string path = ProjectPath;
 
-            /*if (!path.EndsWith(@"\"))
+            if (!path.EndsWith(@"\"))
             {
                 path += @"\";
-            }*/
+            }
 
             path += $@"{ProjectName}\";
 
@@ -161,6 +161,72 @@ namespace PrimalEditor.GameProject
 
             return IsValid;
         }
+
+        /// <summary>
+        /// Returns the location of the newly created game project
+        /// </summary>
+        /// <param name="projectTemplate"></param>
+        /// <returns></returns>
+        public string CreateProject(ProjectTemplate projectTemplate)
+        {
+            //Validate the project path one more time just in case
+            if(!ValidateProjectPath())
+            {
+                return string.Empty;
+            }
+
+            string path = ProjectPath;
+
+            if (!path.EndsWith(@"\"))
+            {
+                path += @"\";
+            }
+
+            path = $@"{ProjectPath}{ProjectName}\";
+
+            try
+            {
+                //If it does not exist we need to create it
+                if(!Directory.Exists(path))
+                {
+                    Directory.CreateDirectory(path);
+                }
+
+                foreach(string folder in projectTemplate.Folders)
+                {
+                    Directory.CreateDirectory(Path.GetFullPath(Path.Combine(Path.GetDirectoryName(path), folder)));
+                }
+
+                DirectoryInfo dirInfo = new DirectoryInfo(path + @".primal\");
+
+                dirInfo.Attributes |= FileAttributes.Hidden;
+
+                /*File.Copy(projectTemplate.IconFilePath, Path.GetFullPath(Path.Combine(dirInfo.FullName, "Icon.png")));
+                File.Copy(projectTemplate.IconFilePath, Path.GetFullPath(Path.Combine(dirInfo.FullName, "Screenshot.png")));
+
+                Project project = new Project(ProjectName, path);
+
+
+                Serializer.ToFile(project, path + $"{ProjectName}" + Project.Extension);*/
+
+                string projectXml = File.ReadAllText(projectTemplate.ProjectFilePath);
+
+                projectXml = string.Format(projectXml, ProjectName, ProjectPath);
+
+                string projectPath = Path.GetFullPath(Path.Combine(path, $"{ProjectName}{Project.Extension}"));
+
+                File.WriteAllText(projectPath, projectXml);
+
+                return path;
+
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.Message);
+                return string.Empty;
+            }
+        }
+
 
         public NewProject()
         {
