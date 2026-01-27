@@ -149,7 +149,7 @@ namespace PrimalEditor.GameProject
                 ErrorMessage = "Invalid character(s) used in the project path";
             }
 
-            else if (Directory.Exists(ProjectPath) && Directory.EnumerateFileSystemEntries(path).Any())
+            else if (Directory.Exists(path) && Directory.EnumerateFileSystemEntries(path).Any())
             {
                 ErrorMessage = "Selected folder already exists";
             }
@@ -199,15 +199,10 @@ namespace PrimalEditor.GameProject
 
                 DirectoryInfo dirInfo = new DirectoryInfo(path + @".primal\");
 
-                dirInfo.Attributes |= FileAttributes.Hidden;
+                //dirInfo.Attributes |= FileAttributes.Hidden;
 
-                /*File.Copy(projectTemplate.IconFilePath, Path.GetFullPath(Path.Combine(dirInfo.FullName, "Icon.png")));
-                File.Copy(projectTemplate.IconFilePath, Path.GetFullPath(Path.Combine(dirInfo.FullName, "Screenshot.png")));
-
-                Project project = new Project(ProjectName, path);
-
-
-                Serializer.ToFile(project, path + $"{ProjectName}" + Project.Extension);*/
+                File.Copy(projectTemplate.IconFilePath, Path.GetFullPath(Path.Combine(dirInfo.FullName, "Icon.png")));
+                File.Copy(projectTemplate.ScreenshotFilePath, Path.GetFullPath(Path.Combine(dirInfo.FullName, "Screenshot.png")));
 
                 string projectXml = File.ReadAllText(projectTemplate.ProjectFilePath);
 

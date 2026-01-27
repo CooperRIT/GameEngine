@@ -18,6 +18,8 @@ namespace PrimalEditor.Utilities
                 var fs = new FileStream(path, FileMode.Create);
                 var serializer = new DataContractSerializer(typeof(T));
                 serializer.WriteObject(fs, instance);
+                fs.Flush();
+                fs.Close();
             }
             catch(Exception ex)
             {
@@ -33,6 +35,7 @@ namespace PrimalEditor.Utilities
                 var fs = new FileStream(path, FileMode.Open);
                 var serializer = new DataContractSerializer(typeof(T));
                 T instance = (T)serializer.ReadObject(fs);
+                fs.Close();
                 return instance;
             }
             catch (Exception ex)
