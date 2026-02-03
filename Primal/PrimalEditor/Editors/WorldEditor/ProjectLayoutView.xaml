@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:PrimalEditor.Editors"
              xmlns:proj="clr-namespace:PrimalEditor.GameProject"
              mc:Ignorable="d" 
-             d:DataContext="{d:DesignInstance Type=proj:Project}"
+             d:DataContext="{d:DesignInstance Type=proj:Project, IsDesignTimeCreatable=False}"
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Grid.RowDefinitions>
@@ -30,8 +30,8 @@
                                 <Grid>
                                     <StackPanel>
                                         <TextBlock Text="{Binding Name}"/>
-                                        <Button Content="Remove Scene" Command="{Binding DataContext.RemoveScene, RelativeSource= {RelativeSource AncestorType=UserControl}}
-                                            " CommandParameter="{Binding}" Margin="20, 0" Focusable="False"/>
+                                        <Button Content="Remove Scene" Command="{Binding DataContext.RemoveScene, RelativeSource= {RelativeSource AncestorType=UserControl}}"
+                                            CommandParameter="{Binding}" Margin="20, 0" Focusable="False"/>
                                     </StackPanel>
                                 </Grid>
                             </Expander.Header>

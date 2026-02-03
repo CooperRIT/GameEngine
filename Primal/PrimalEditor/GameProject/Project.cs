@@ -75,7 +75,7 @@ namespace PrimalEditor.GameProject
             Name = name;
             Path = path;
 
-            OnDeserialized(new StreamingContext());
+            //OnDeserialized(new StreamingContext());
 
 
         }
