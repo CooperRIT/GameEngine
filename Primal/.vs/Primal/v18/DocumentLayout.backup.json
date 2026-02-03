@@ -3,52 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\gameproject\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\editors\\worldeditor\\projectlayoutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\editors\\worldeditor\\projectlayoutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\gameproject\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|c:\\users\\thego\\desktop\\github repos\\gameengine\\primal\\primaleditor\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\gameproject\\openproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\openproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\utilities\\serializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\utilities\\serializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\gameproject\\newproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\newproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\gameproject\\newprojectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\newprojectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|c:\\users\\thego\\desktop\\github repos\\gameengine\\primal\\primaleditor\\gameproject\\openprojectview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\openprojectview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\gameproject\\newprojectview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\newprojectview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\gameproject\\projectbrowserdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\projectbrowserdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\editors\\worldeditor\\worldeditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\editors\\worldeditor\\worldeditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\gameproject\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\gameproject\\openprojectview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\openprojectview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\common\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\common\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\gameproject\\openprojectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\openprojectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\gameproject\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\gameproject\\newprojectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\newprojectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\ProjectTemplates\\EmptyProject\\template.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -57,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\primaleditor\\gameproject\\projectbrowserdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{328E07B6-B060-4AAA-8661-12027492B153}|PrimalEditor\\PrimalEditor.csproj|solutionrelative:primaleditor\\gameproject\\projectbrowserdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\obj\\Debug\\GameProject\\NewProjectView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,22 +66,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 242,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Project.cs",
-              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\Project.cs",
-              "RelativeDocumentMoniker": "PrimalEditor\\GameProject\\Project.cs",
-              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\Project.cs",
-              "RelativeToolTip": "PrimalEditor\\GameProject\\Project.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAqwE4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T15:37:37.41Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -120,44 +98,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OpenProject.cs",
-              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\OpenProject.cs",
-              "RelativeDocumentMoniker": "PrimalEditor\\GameProject\\OpenProject.cs",
-              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\OpenProject.cs",
-              "RelativeToolTip": "PrimalEditor\\GameProject\\OpenProject.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAmwFoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T18:39:46.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "PrimalEditor\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\MainWindow.xaml.cs",
-              "RelativeToolTip": "PrimalEditor\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwDYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T17:32:24.177Z",
+              "DocumentIndex": 1,
+              "Title": "OpenProjectView.xaml",
+              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\OpenProjectView.xaml",
+              "RelativeDocumentMoniker": "PrimalEditor\\GameProject\\OpenProjectView.xaml",
+              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\OpenProjectView.xaml",
+              "RelativeToolTip": "PrimalEditor\\GameProject\\OpenProjectView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-03T19:05:52.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Serializer.cs",
-              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\Utilities\\Serializer.cs",
-              "RelativeDocumentMoniker": "PrimalEditor\\Utilities\\Serializer.cs",
-              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\Utilities\\Serializer.cs",
-              "RelativeToolTip": "PrimalEditor\\Utilities\\Serializer.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T14:41:06.849Z"
+              "Title": "WorldEditorView.xaml",
+              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\Editors\\WorldEditor\\WorldEditorView.xaml",
+              "RelativeDocumentMoniker": "PrimalEditor\\Editors\\WorldEditor\\WorldEditorView.xaml",
+              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\Editors\\WorldEditor\\WorldEditorView.xaml",
+              "RelativeToolTip": "PrimalEditor\\Editors\\WorldEditor\\WorldEditorView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-29T15:04:36.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectLayoutView.xaml",
+              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\Editors\\WorldEditor\\ProjectLayoutView.xaml",
+              "RelativeDocumentMoniker": "PrimalEditor\\Editors\\WorldEditor\\ProjectLayoutView.xaml",
+              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\Editors\\WorldEditor\\ProjectLayoutView.xaml",
+              "RelativeToolTip": "PrimalEditor\\Editors\\WorldEditor\\ProjectLayoutView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-29T15:44:05.589Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PrimalEditor\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PrimalEditor\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T17:32:24.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "NewProjectView.xaml",
               "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\NewProjectView.xaml",
               "RelativeDocumentMoniker": "PrimalEditor\\GameProject\\NewProjectView.xaml",
@@ -170,18 +159,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "NewProject.cs",
-              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\NewProject.cs",
-              "RelativeDocumentMoniker": "PrimalEditor\\GameProject\\NewProject.cs",
-              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\NewProject.cs",
-              "RelativeToolTip": "PrimalEditor\\GameProject\\NewProject.cs",
-              "ViewState": "AgIAALoAAAAAAAAAAAAlwLEAAAAMAAAAAAAAAA==",
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\Project.cs",
+              "RelativeDocumentMoniker": "PrimalEditor\\GameProject\\Project.cs",
+              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\Project.cs",
+              "RelativeToolTip": "PrimalEditor\\GameProject\\Project.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAADwv4EAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T14:41:06.924Z"
+              "WhenOpened": "2026-01-21T15:37:37.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectBrowserDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\ProjectBrowserDialog.xaml",
+              "RelativeDocumentMoniker": "PrimalEditor\\GameProject\\ProjectBrowserDialog.xaml",
+              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\ProjectBrowserDialog.xaml",
+              "RelativeToolTip": "PrimalEditor\\GameProject\\ProjectBrowserDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T14:41:08.961Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PrimalEditor\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\MainWindow.xaml",
+              "RelativeToolTip": "PrimalEditor\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-20T14:42:32.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\App.xaml.cs",
+              "RelativeDocumentMoniker": "PrimalEditor\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\App.xaml.cs",
+              "RelativeToolTip": "PrimalEditor\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T15:31:58.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "NewProjectView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\NewProjectView.xaml.cs",
               "RelativeDocumentMoniker": "PrimalEditor\\GameProject\\NewProjectView.xaml.cs",
@@ -193,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Scene.cs",
               "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\Scene.cs",
               "RelativeDocumentMoniker": "PrimalEditor\\GameProject\\Scene.cs",
@@ -201,59 +225,11 @@
               "RelativeToolTip": "PrimalEditor\\GameProject\\Scene.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAwCoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T16:10:27.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T16:10:27.739Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OpenProjectView.xaml",
-              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\OpenProjectView.xaml",
-              "RelativeDocumentMoniker": "PrimalEditor\\GameProject\\OpenProjectView.xaml",
-              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\OpenProjectView.xaml",
-              "RelativeToolTip": "PrimalEditor\\GameProject\\OpenProjectView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-20T14:41:06.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "PrimalEditor\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\MainWindow.xaml",
-              "RelativeToolTip": "PrimalEditor\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-20T14:42:32.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\Common\\ViewModelBase.cs",
-              "RelativeDocumentMoniker": "PrimalEditor\\Common\\ViewModelBase.cs",
-              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\Common\\ViewModelBase.cs",
-              "RelativeToolTip": "PrimalEditor\\Common\\ViewModelBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T14:41:06.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OpenProjectView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\OpenProjectView.xaml.cs",
-              "RelativeDocumentMoniker": "PrimalEditor\\GameProject\\OpenProjectView.xaml.cs",
-              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\OpenProjectView.xaml.cs",
-              "RelativeToolTip": "PrimalEditor\\GameProject\\OpenProjectView.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA3wBgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T14:59:12.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "NewProjectView.g.cs",
               "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\obj\\Debug\\GameProject\\NewProjectView.g.cs",
               "RelativeDocumentMoniker": "PrimalEditor\\obj\\Debug\\GameProject\\NewProjectView.g.cs",
@@ -265,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "template.xml",
               "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\ProjectTemplates\\EmptyProject\\template.xml",
               "RelativeDocumentMoniker": "PrimalEditor\\ProjectTemplates\\EmptyProject\\template.xml",
@@ -277,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\App.xaml",
               "RelativeDocumentMoniker": "PrimalEditor\\App.xaml",
@@ -285,18 +261,6 @@
               "RelativeToolTip": "PrimalEditor\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-20T14:41:55.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProjectBrowserDialog.xaml",
-              "DocumentMoniker": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\ProjectBrowserDialog.xaml",
-              "RelativeDocumentMoniker": "PrimalEditor\\GameProject\\ProjectBrowserDialog.xaml",
-              "ToolTip": "C:\\Users\\thego\\Desktop\\Github Repos\\GameEngine\\Primal\\PrimalEditor\\GameProject\\ProjectBrowserDialog.xaml",
-              "RelativeToolTip": "PrimalEditor\\GameProject\\ProjectBrowserDialog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-20T14:41:08.961Z",
               "EditorCaption": ""
             }
           ]

@@ -23,6 +23,13 @@ namespace PrimalEditor.GameProject
         public OpenProjectView()
         {
             InitializeComponent();
+
+            //Select the first item in the list if it exists
+            Loaded += (s, e) =>
+                {
+                    ListBoxItem item = projectsListBox.ItemContainerGenerator.ContainerFromIndex(projectsListBox.SelectedIndex) as ListBoxItem;
+                    item?.Focus();
+                };
         }
 
         private void OnOpen_Button_Click(object sender, RoutedEventArgs e)
