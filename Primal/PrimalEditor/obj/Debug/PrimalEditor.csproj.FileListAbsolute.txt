@@ -52,3 +52,5 @@ C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\Pri
 C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\PrimalEditor.csproj.CoreCompileInputs.cache
 C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\PrimalEditor.exe
 C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\PrimalEditor.pdb
+C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\Editors\WorldEditor\GameEntityView.g.cs
+C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\Editors\WorldEditor\GameEntityView.baml
