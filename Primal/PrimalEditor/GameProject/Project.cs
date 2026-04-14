@@ -91,12 +91,13 @@ namespace PrimalEditor.GameProject
 
         public  void Unload()
         {
-            
+            UndoRedo.Reset();
         }
 
         public static void Save(Project project)
         {
             Serializer.ToFile(project, project.FullPath);
+            Logger.Log(MessageType.Info, $"Saved Project to {project.FullPath}");
         }
 
         [OnDeserialized]

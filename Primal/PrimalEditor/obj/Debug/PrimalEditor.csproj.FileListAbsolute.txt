@@ -54,3 +54,8 @@ C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\Pri
 C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\PrimalEditor.pdb
 C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\Editors\WorldEditor\GameEntityView.g.cs
 C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\Editors\WorldEditor\GameEntityView.baml
+C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\Dictionaries\ControlTemplates.baml
+C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\Dictionaries\ControlTemplates.g.cs
+C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\App.baml
+C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\Utilities\LoggerView.g.cs
+C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\obj\Debug\Utilities\LoggerView.baml

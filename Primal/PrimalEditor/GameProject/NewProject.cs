@@ -1,14 +1,14 @@
-﻿using System;
+﻿using PrimalEditor.Utilities;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Runtime.Serialization;
-using System.Threading.Tasks;
-using PrimalEditor.Utilities;
-using System.Collections.ObjectModel;
 using System.IO;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace PrimalEditor.GameProject
 {
@@ -218,7 +218,8 @@ namespace PrimalEditor.GameProject
             catch (Exception ex)
             {
                 Debug.WriteLine(ex.Message);
-                return string.Empty;
+                Logger.Log(MessageType.Error, $"Failed to craete {ProjectName}");
+                throw;
             }
         }
 
@@ -252,7 +253,8 @@ namespace PrimalEditor.GameProject
             catch (Exception ex)
             {
                 Debug.WriteLine(ex.Message);
-                //TODO Log errors in editor
+                Logger.Log(MessageType.Error, $"Failed to read project templates");
+                throw;
             }
         }
     }

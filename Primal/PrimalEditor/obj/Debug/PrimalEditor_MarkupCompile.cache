@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\thego\Desktop\Github Repos\GameEngine\Primal\PrimalEditor\App.xaml
-858239177
+10-1958845440
 
-231407961123
+261140755634
 16942995002
-Editors\WorldEditor\GameEntityView.xaml;Editors\WorldEditor\ProjectLayoutView.xaml;Editors\WorldEditor\WorldEditorView.xaml;GameProject\NewProjectView.xaml;GameProject\OpenProjectView.xaml;GameProject\ProjectBrowserDialog.xaml;MainWindow.xaml;Utilities\UndoRedoView.xaml;
+Dictionaries\ControlTemplates.xaml;Editors\WorldEditor\GameEntityView.xaml;Editors\WorldEditor\ProjectLayoutView.xaml;Editors\WorldEditor\WorldEditorView.xaml;GameProject\NewProjectView.xaml;GameProject\OpenProjectView.xaml;GameProject\ProjectBrowserDialog.xaml;MainWindow.xaml;Utilities\LoggerView.xaml;Utilities\UndoRedoView.xaml;
 
 False
 
