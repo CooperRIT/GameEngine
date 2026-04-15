@@ -9,7 +9,7 @@ using System.Windows.Media.Media3D;
 namespace PrimalEditor.Components
 {
     [DataContract]
-    public class Transform : Component
+    class Transform : Component
     {
         private Vector3D _position;
 
