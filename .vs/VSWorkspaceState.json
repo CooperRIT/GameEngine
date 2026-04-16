@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Primal",
+    "\\Primal\\Engine",
+    "\\Primal\\Engine\\Common",
+    "\\Primal\\Engine\\Components"
   ],
-  "SelectedNode": "\\Primal.sln",
+  "SelectedNode": "\\Primal\\Engine\\Components\\ComponentCommon.h",
   "PreviewInSolutionExplorer": false
 }
